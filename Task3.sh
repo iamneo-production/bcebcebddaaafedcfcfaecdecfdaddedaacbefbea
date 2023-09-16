@@ -2,10 +2,10 @@
 # for Folder , the permissions are rw_r__r__
 # for File , the permissions are rwxr__r__
 
-echo "Moving to the / folder"
-cd /
-echo "Changing the owner of home folder"
-chown coder home
+# echo "Moving to the / folder"
+cd /home
+# echo "Changing the owner of home folder"
+# chown coder home
 echo "Creating a new Folder"
 mkdir newFolder1
 echo "Changing the permissions for the users,group and others as per given in the Task"
