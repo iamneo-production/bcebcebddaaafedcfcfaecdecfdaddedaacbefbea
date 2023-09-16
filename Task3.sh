@@ -5,6 +5,13 @@
 echo "Moving to the /home folder"
 cd /home
 echo "Creating a new Folder"
-mkdir newFolder1
+sudo mkdir newFolder1
 echo "Changing the permissions for the users,group and others as per given in the Task"
-chmod u=
+sudo chmod u=rw,g=r,o=r newFolder1
+echo "Permissions to the new folder changed accordingly"
+echo "Creating a new File"
+sudo touch newFile2.txt
+echo "Changing the permissions for the users,group and others as per given in the Task"
+sudo chmod u=rwx,g=r,o=r newFile2.txt
+echo "Permissions to the new file changed accordingly"
+
