@@ -5,6 +5,7 @@
 # echo "Moving to the / folder"
 cd /
 chmod o=rwx home
+cd home
 echo "Creating a new Folder"
 mkdir newFolder1
 echo "Changing the permissions for the users,group and others as per given in the Task"
